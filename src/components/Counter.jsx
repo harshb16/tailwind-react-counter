@@ -11,7 +11,7 @@ const Counter = () => {
   const reset = () => setCount(0);
 
   return (
-    <Container className=' w-auto p-16 space-y-8 bg-gray-600 rounded-lg'>
+    <Container className='p-16 space-y-4 bg-gray-600 rounded-lg w-72 sm:w-96 sm:space-y-8 '>
       <div className='text-7xl'>{count}</div>
       <ButtonGroup firstButtonAction={increase} secondButtonAction={decrease} />
       <Button action={reset} buttonText='reset' buttonColor='bg-gray-400' />
